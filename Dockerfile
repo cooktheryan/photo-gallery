@@ -1,4 +1,4 @@
-FROM node:boron
+FROM registry.redhat.io/rhel8/nodejs-14
 
 # Create app directory
 WORKDIR /usr/src/app
