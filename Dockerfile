@@ -1,4 +1,4 @@
-FROM registry.redhat.io/rhel8/nodejs-14
+FROM node:lts-alpine 
 
 # Create app directory
 WORKDIR /usr/src/app
